@@ -5,7 +5,7 @@ import Header from "./partials/header.component";
 function DefaultLayout({ children }) {
   return (
     <div className="default-layout">
-      <header className="Header">
+      <header className="Header ">
         <Header />
       </header>
       <main className="main">{children}</main>
