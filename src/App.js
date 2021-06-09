@@ -1,5 +1,6 @@
 import "./App.css";
 import DefaultLayout from "./layout/defaultLayout";
+import Dashboard from "./pages/dashboard/dashboard.page";
 import Entry from "./pages/entry/entry.page";
 
 function App() {
@@ -7,8 +8,7 @@ function App() {
     <div className="App">
       {/* <Entry /> */}
       <DefaultLayout>
-        {/* dashborard */}
-        send page component
+        <Dashboard />
       </DefaultLayout>
     </div>
   );
